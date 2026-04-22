@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    
+    <h1>WORDS API</h1>
+    <p>With this API we can get definitions, synonyms,
+        antonyms and everything related to english language.¡Try it!</p>
+
+    <p>Please note that not all word-function combinations have a solution.</p>
+
+    <label for="palabra">Choose a word:</label>
+    <input type="text" id="palabra" required>
+    <button type="submit">Choose</button>
+
+    <label for="opciones">Choose an operation:</label>
+    <select id="opciones" name="opciones">
+        <option value="showall">Show all</option>
+        <option value="definitions">Definitions</option>
+        <option value="synonyms">Synonyms</option>
+        <option value="antonyms">Antonyms</option>
+        <option value="examples">Examples</option>
+        <option value="rhymes">Rhymes</option>
+        <option value="frequency">Frequency</option>
+        <option value="isAtypeOf">Is A Type Of</option>
+        <option value="hasTypes">Has Types</option>
+        <option value="parOf">Part Of</option>
+        <option value="hasParts">Has Parts</option>
+        <option value="isAnInstanceOf">Is An Instance Of</option>
+        <option value="hasInstances">Has Instances</option>
+        <option value="inRegion">In Region</option>
+        <option value="regionOf">Region Of</option>
+        <option value="usageOf">Usage Of</option>
+        <option value="hasUsages">Has Usages</option>
+        <option value="isAMemberOf">Is A Member Of</option>
+        <option value="hasMembers">Has Members</option>
+        <option value="isASubstanceOf">Is A Substance Of</option>
+        <option value="hasSubstances">Has Substances</option>
+        <option value="hasAttributes">Has Attributes</option>
+        <option value="inCategory">In Category</option>
+        <option value="hasCategories">Has Categories</option>
+        <option value="also">Also</option>
+        <option value="pertainsTo">Pertains To</option>
+        <option value="similarTo">Similar To</option>
+        <option value="entails">Entails</option>
+
+    </select>
+
     <script src="script.js"></script>
 </body>
+
 </html>
